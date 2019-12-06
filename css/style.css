@@ -15,9 +15,24 @@ body{
   font-family: 'Solway', serif;
   font-size:30px
 }
-#price{
+.label{
   color:black;
   font-family: 'Bebas Neue', cursive;
   font-size:40px;
   position:absolute; top:650px; left: 750px;
+}
+#price:hover::after{
+  color:rgb(242, 234, 10);
+  font-family: 'Bebas Neue', cursive;
+  font-size:20px;
+  content:"Per gallon, plus shipping and handling"
+}
+.review{
+  position:absolute; top:800px; left:200px;
+  font-style:oblique;
+}
+#replylink:hover{
+  position:absolute; top:800px; left:200px;
+  font-style:italic;
+  background-color:yellow;
 }
